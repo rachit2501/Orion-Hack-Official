@@ -46,6 +46,7 @@ class register extends Component {
         <div className="container">
         <form onSubmit= {this.onSubmit}>
         <div className="form-group">
+<<<<<<< HEAD
         <label htmlFor="exampleInputEmail1">Username</label>
         <input type="text" className="form-control" name="name" id="exampleInputEmail1" value={this.state.name} onChange={this.onChange} aria-describedby="emailHelp" placeholder="Enter Username" />
         <small id="emailHelp" className="form-text text-muted">Your username is unique to you</small>
@@ -58,6 +59,20 @@ class register extends Component {
           <div className="form-group">
             <label htmlFor="exampleInputPassword1">Password</label>
             <input type="password" name="password" className="form-control" id="exampleInputPassword1" value={this.state.password} onChange={this.onChange} placeholder="Password" />
+=======
+        <label htmlFor="exampleInputEmail1"><h2><font color="white">Username</font></h2></label>
+        <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Username" />
+        <small id="emailHelp" className="form-text text-muted"><h6>Your username is unique to you</h6></small>
+      </div>
+          <div className="form-group">
+            <label htmlFor="exampleInputEmail1"><h2><font color="white">Email Address</font></h2></label>
+            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+            <small id="emailHelp" className="form-text text-muted"><h6>We'll never share your email with anyone else.</h6></small>
+          </div>
+          <div className="form-group">
+            <label htmlFor="exampleInputPassword1"><h2><font color="white">Password</font></h2></label>
+            <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
+>>>>>>> 299ecef7c62a40c75ff14effa661457e04fe1556
           </div>
           <div className="form-group form-check">
             <input type="checkbox" className="form-check-input" id="exampleCheck1" />
