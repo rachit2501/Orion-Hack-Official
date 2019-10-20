@@ -55,16 +55,17 @@ router.post('/login', async (req , res)=>
             if(exist.password === req.body.password)
             {
     
-                const payload = {
-                    name : exist.name , 
-                    email : exist.email
-                }
-                jwt.sign(payload , "Jwt-pbvt-dslkjjflk" , {expiresIn : 36000} , (err , token) => {
-                    res.json({
-                        success : true ,
-                        token : 'Bearer ' + token
-                    })
-                })
+                // const payload = {
+                //     name : exist.name , 
+                //     email : exist.email
+                // }
+                // jwt.sign(payload , "Jwt-pbvt-dslkjjflk" , {expiresIn : 36000} , (err , token) => {
+                //     res.json({
+                //         success : true ,
+                //         token : 'Bearer ' + token
+                //     })
+                // })
+                res.send("correct");
             }
             else
             res.json({"message": "Invalid Email or Password"});  // research
