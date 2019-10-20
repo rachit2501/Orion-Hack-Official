@@ -15,9 +15,6 @@ export class home extends Component {
                 <Features />
                 <AboutUs />
                 <Sasu />
-                <AboutUs2 />
-                <PricingPart />
-                <CtaPart />
             </React.Fragment>
         )
     }

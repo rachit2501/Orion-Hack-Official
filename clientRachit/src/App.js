@@ -11,6 +11,9 @@ import Blog from './components/blog';
 import Contact from './components/contact';
 import Register from './components/register';
 import Login from './components/login';
+import Dashboard from './components/dashboard';
+import EditProfile from './components/edit-profile';
+import ViewProfile from './components/view-profile';
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
       <Route path="/contact" component={Contact} exact />
       <Route path="/register" component={Register} exact />
       <Route path="/login" component={Login} exact />
+      <Route path="/dashboard" component={Dashboard} exact />
+      <Route path="/dashboard/edit-profile" component={EditProfile} exact />
+      <Route path="/dashboard/view-profile" component={ViewProfile} exact />
       <Footer />
       </Router>
     </React.Fragment>

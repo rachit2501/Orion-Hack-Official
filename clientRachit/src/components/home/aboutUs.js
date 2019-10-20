@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
  class About extends Component {
   render() {
@@ -10,11 +11,9 @@ import React, { Component } from 'react'
                 <div className="about_us_text">
                   <h2>Right people at the
                     Right time.</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim</p>
-                  <a href="#" className="btn_1">get started</a>
-                  <a href="#" className="btn_2">sing up free</a>
+                  <p>Yes! you heard it right. We have the best algorithm to predict your medical condition and save your life :)</p>
+                  <Link to="/predictor" className="btn_1">get started</Link>
+                  <Link to="/login" className="btn_2">sing up free</Link>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6">

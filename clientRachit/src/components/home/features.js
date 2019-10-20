@@ -12,8 +12,8 @@ export class Features extends Component {
                     <div className="single_feature">
                       <div className="single_feature_part">
                         <img src="img/icon/feature_icon_1.png" alt="" />
-                        <h4>A Volunteer</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor</p>
+                        <h4>A Disease Predictor</h4>
+                        <p>Predict your Diseases on the go.</p>
                       </div>
                     </div>
                   </div>
@@ -21,15 +21,15 @@ export class Features extends Component {
                     <div className="single_feature">
                       <div className="single_feature_part">
                         <img src="img/icon/feature_icon_2.png" alt="" />
-                        <h4>A Volunteer</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor</p>
+                        <h4>Live Consultancy</h4>
+                        <p>Just login and start a chat with professionals all around.</p>
                       </div>
                     </div>
                     <div className="single_feature">
                       <div className="single_feature_part single_feature_part_2">
                         <img src="img/icon/feature_icon_3.png" alt="" />
-                        <h4>A Volunteer</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor</p>
+                        <h4>Fast Appointment</h4>
+                        <p>Dont wait , just get yourself a look at if needed.</p>
                       </div>
                     </div>
                   </div>
@@ -37,11 +37,8 @@ export class Features extends Component {
               </div>
               <div className="col-lg-5">
                 <div className="feature_part_text">
-                  <h2>featured</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                    ultrices gravida Risus com odo viverra maecenas accumsan lacus vel facilisis
-                    accumsan.</p>
+                  <h2>Features</h2>
+                  <p>"We're serving and interesting convergence of technology , medicine , social issues and human progress."</p>
                   <div className="row">
                     <div className="col-sm-6 col-md-4 col-lg-5">
                       <div className="feature_part_text_iner">
@@ -51,7 +48,7 @@ export class Features extends Component {
                     </div>
                     <div className="col-sm-6 col-md-4 col-lg-5">
                       <div className="feature_part_text_iner">
-                        <h4>100k</h4>
+                        <h4>10k</h4>
                         <p>Successed Mission</p>
                       </div>
                     </div>

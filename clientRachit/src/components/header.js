@@ -22,15 +22,7 @@ export class Header extends Component {
                       <li className="nav-item">
                         <Link className="nav-link" to="/predictor">Disease Predictor</Link>
                       </li>
-                      <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Blog
-                        </a>
-                        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <Link className="dropdown-item" to="/blog"> Blog</Link>
-                          <a className="dropdown-item" href="single-blog.html">Become An Author</a>
-                        </div>
-                      </li>
+                
                       <li className="nav-item">
                         <Link className="nav-link" to="/contact">Contact</Link>
                       </li>

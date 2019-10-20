@@ -6,41 +6,27 @@ export class Footer extends Component {
       <footer className="footer_part">
           <div className="container">
             <div className="row">
-              <div className="col-sm-6 col-lg-3">
+              <div className="col-sm-6 col-lg-4">
                 <div className="single_footer_part">
                   <a href="index.html" className="footer_logo_iner"> <img src="img/footer_logo.png" alt="#" /> </a>
                   <h4>About Us</h4>
-                  <p>Heaven fruitful doesn't over lesser days appear creeping seasons so behold bearing days open
+                  <p>Just a few dreamers of a disease free World
                   </p>
                 </div>
               </div>
-              <div className="col-sm-6 col-lg-3">
+              <div className="col-sm-6 col-lg-4">
                 <div className="single_footer_part">
                   <h4>Contact Info</h4>
-                  <p>Address : Your address goes
-                    here, your demo address.
-                    Bsngladesh.</p>
-                  <p>Phone : +8880 44338899</p>
-                  <p>Email : info@colorlib.com</p>
+                  <p>Address : Patiala , India</p>
+                  <p>Phone : +91 4546764523</p>
+                  <p>Email : booleanPandits@booleanPandits.com</p>
                 </div>
               </div>
-              <div className="col-sm-6 col-lg-3">
-                <div className="single_footer_part">
-                  <h4>Important Link</h4>
-                  <ul className="list-unstyled">
-                    <li><a href> WHMCS-bridge</a></li>
-                    <li><a href>Search Domain</a></li>
-                    <li><a href>My Account</a></li>
-                    <li><a href>Shopping Cart</a></li>
-                    <li><a href>Our Shop</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-sm-6 col-lg-3">
+
+              <div className="col-sm-6 col-lg-4">
                 <div className="single_footer_part">
                   <h4>Newsletter</h4>
-                  <p>Heaven fruitful doesn't over lesser in days. Appear creeping seasons deve behold bearing days
-                    open
+                  <p>Lets get this world rid of all the diseases.
                   </p>
                   <div id="mc_embed_signup">
                     <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01" method="get" className="subscribe_form relative mail_part">
